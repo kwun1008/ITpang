@@ -1,0 +1,362 @@
+@CHARSET "EUC-KR";
+@font-face{
+	font-family:"jua";
+	src:url("../font/BMJUA_ttf.ttf");
+}
+@font-face{
+	font-family:"hanna";
+	src:url("../font/BMHANNAAir_ttf.ttf");
+}
+.wrapper{
+	width:1400px;
+	margin: 0 auto;
+	background-color:white;
+	box-shadow: 2px 2px 8px gray;
+	border-radius: 20px / 20px;
+}
+
+header{
+	width:1400px;
+	height:300px;
+}
+
+.logo{
+	width:200px;
+	margin-left:120px;
+	display:inline-block;
+	float:left;
+	margin-top:90px;
+}
+
+.search{
+	border:solid 3px #6bceff; /* 107 206 255 */
+	margin-left:150px;
+	height:42px;
+	display:inline-block;
+	float:left;
+	margin-top:90px;
+	padding:0 0;
+	
+}
+.search_frm{
+	height:100%;
+}
+.search_text{
+	height:100%;
+	border:none;
+	border-left:solid 1px gray;
+	width:350px;
+	height:26px;
+	padding:0 0;
+}
+.search_btn{
+	border:none;
+	height:30px;
+	background-color:white;
+}
+.search_btn img{
+	width:20px;
+	padding-top:5px;
+	cursor:pointer;
+}
+.category{
+	border:none;
+	padding-left:5px;
+}
+.mypage{
+	display:inline-block;
+	float:left;
+	margin-top:60px;
+	margin-left: 120px;
+	width:300px;
+}
+.mypage div{
+	display:inline-block;
+	float:left;
+	width:120px;
+	margin:0 0;
+	text-align:center;
+}
+.mypage ul{
+	padding-left:0px;
+}
+.left{
+	border-right:1px solid #333333;
+	padding-right:20px;
+}
+.right{
+	padding-left:20px;
+}
+.mypage li{
+	display:inline-block;
+	width:100%;
+	font-family:"jua";
+	font-size:18px;
+}
+.mypage img{
+	height:50px;
+	width:50px;
+	margin-bottom:10px;
+}
+
+body{
+	background-color:#f3f8ff;
+}
+	
+.loginbox{
+	width:100%;
+	margin-top:0px;
+	text-align:right;
+	height:34px;
+	background-color:#f0f0f0;
+	border-radius: 20px 20px 0 0 / 20px 20px 0 0
+}
+.loginbox ul{
+	margin:0 0;
+	float:right;
+	margin-right:20px;
+	margin-top:6px;
+}
+.loginbox li{
+	display:inline;
+	margin:0 10px;
+}
+.loginbox a{
+	text-decoration:none;
+	color:black;
+	font-family: "hanna";
+	font-size:20px;
+}
+
+.menu ul{
+	width:100%;
+	text-align:center;
+	padding-left:0px;
+	margin:0 0;
+	height:40px;
+
+}
+.menu>ul>li{
+	display:inline-block;
+	width:20%;
+	height:100%;
+	border:none;
+}
+.menu>ul>li>a{
+	display:block;
+	height:40px;
+}
+.menu ul li ul{
+	position: absolute;
+	width:280px;
+	display:none;
+	z-index:2;
+	
+}
+.menu ul li ul li{
+	display:inline-block;
+	text-align:center;
+	padding-top:12px;
+	height:38px;
+	width:200px;
+	border:solid 1px gray;
+	background-color:#f5f5f5;	
+}
+.menu ul li ul li a{
+	text-decoration:none;
+	font-size:18px; 
+	font-family:'¸¼Àº °íµñ';
+	color:#222222;
+}
+.menu ul li a img{
+	width:100%;
+	height:100%;	
+}
+.slider{
+	width:100%;
+}
+.slider img{
+	width:100%;
+	height:550px;
+}
+.bx-wrapper{
+	border:none;
+	clear:both;
+	margin-bottom:0px;
+}
+.content_title{
+	width:100%;
+	text-align:center;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+.content_title div{
+	border-bottom:1px solid #c3c3c3;
+	color:#555555;
+	font-size:40px;
+	margin:0 auto;
+	padding:30px 0;
+	width:500px;
+	font-family:"jua";
+}
+
+.content>ul{
+	text-align:center;
+	padding-left:0px;
+}
+.content>ul>li{
+	margin:20px 20px;
+	width:280px;
+	height:350px;
+	display:inline-block;
+	border:1px solid #c3c3c3;
+	text-align:center;
+}
+.product{
+	padding-left:0px;
+	width:100%;
+	text-align:center;
+	font-family:"jua";
+	font-size:18px;
+	margin-right:0px;
+}
+.product>li{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	vertical-align:bottom;
+}
+.product a{
+	text-decoration:none;
+	color:#2dabff;
+}
+
+.product img{
+	max-width:200px;
+	max-height:200px;
+	width:100%;
+	height:100%;
+}
+
+.img_wrapper{
+	height:200px;
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.joinbox{
+	text-align:center;
+}
+.joinbox div{
+	display:inline-block;
+}
+.joinbox ul{
+	display:inline-block;
+	width:400px;
+	padding-left:0px;
+}
+.joinbox form div{
+	display:inline-block;
+}
+.joinbox li{
+	width:100%;
+	display:inline-block;
+}
+.join_info{
+	margin-top:0px;
+	padding-top:2px;
+	float:right;
+	font-family:"hanna";
+	font-size:26px;
+	border-right:solid 2px #6bceff;
+}
+.join_info li{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.join_input{
+	float:left;
+	margin-top:0px;
+	margin-bottom:25px;
+}
+.join_input li{
+	text-align:left;
+	padding-left:100px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.input{
+	height:24px;
+	border:none;
+	border-bottom:1px solid black;
+	font-size:16px;
+}
+
+.join_btn{
+	width:200px;
+	height:60px;
+	background-color:#39bfff;
+	font-family:"jua";
+	font-size:30px;
+	color:white;
+	border:1px solid gray;
+	border-radius: 10px / 10px;
+}
+
+.check_btn{
+	font-family:"hanna";
+	background-color:#39bfff;
+	font-size:18px;
+	color:white;
+	border:none;
+	height:26px;
+	margin-left:2px;
+}
+	
+.blue{
+	width:100%;
+	height:10px;
+	border:none;
+	background-color:#6bceff;
+}
+hr{
+	border:none;
+}
+
+
+.writebox{
+	text-align:center;
+}
+.writebox div{
+	display:inline-block;
+}
+.write_info{
+	width:200px;
+	font-family:"hanna";
+	font-size:24px;
+}
+.write_input{
+	width:400px;
+}
+.writebox ul{
+	display:inline-block;
+}
+.writebox li{
+	display:inline-block;
+	width:100%;
+}
+.write_info li{
+	margin-bottom:25px;
+}
+.write_input li{
+	margin:10px 0;
+	text-align:left;
+}
+#info{
+	margin-top:65px;
+	margin-bottom:108px;
+}
+
+#productTitle{
+	font-family:"jua";
+	font-size:30px;
+}
