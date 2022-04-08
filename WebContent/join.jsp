@@ -46,7 +46,7 @@ function checkID(){
 			type:"post",
 			async:true,
 			dataType:"text",
-			url:"http://localhost:8080/Project2/checkID.jsp",
+			url:"http://localhost:8080/Project22/checkID.jsp",
 			data:{id:$("#id").val()},
 			success: function(data,textStatus){
 				var input = $.trim(data);
